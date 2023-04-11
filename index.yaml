@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  kubernetes-opa-library-constraints:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2023-04-11T13:25:55.290971385+01:00"
+    description: A Helm chart for Kubernetes OPA Gatekeeper policy constraints
+    digest: da6512e3f633e18778d15e91ec74cdcacd36ee16eda921bdf6713c91ed725b23
+    name: kubernetes-opa-library-constraints
+    type: application
+    urls:
+    - kubernetes-opa-library-constraints-1.0.0.tgz
+    version: 1.0.0
+  kubernetes-opa-library-templates:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2023-04-11T13:25:55.291677261+01:00"
+    description: A Helm chart for Kubernetes OPA Gatekeeper policy templates
+    digest: 4dc1420ef21267398c144bd5a07fc10806000dd19b12a4afbb075acdd3b25b1c
+    name: kubernetes-opa-library-templates
+    type: application
+    urls:
+    - kubernetes-opa-library-templates-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-04-11T13:25:55.290617822+01:00"
