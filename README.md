@@ -8,6 +8,12 @@
 
 Helm chart repository of my public projects.
 
+# Install repository:
+
+```bash
+helm repo add ssbostan https://ssbostan.github.io/charts
+```
+
 # License:
 
 Apache License 2.0, see [LICENSE](./LICENSE).
