@@ -1,9 +1,24 @@
 apiVersion: v1
 entries:
+  argostart:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-05-23T12:51:51.957484032+01:00"
+    description: A chart to deploy the first ArgoCD Application and credentials to
+      implement AppOfApps and AppOfAppSets.
+    digest: c9566ae267a4691fbc370664430d056905dee0e166ac2fd13d4d06eb17d2935e
+    maintainers:
+    - email: ssbostan@yahoo.com
+      name: Saeid Bostandoust
+    name: argostart
+    type: application
+    urls:
+    - argostart-0.0.1.tgz
+    version: 0.0.1
   kubernetes-opa-library-constraints:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2023-05-02T13:25:34.224382821+01:00"
+    created: "2024-05-23T12:51:51.961067933+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy constraints
     digest: e331364a7f7a6c46a0e7113c6d2e969b37c25fa22fa02270f15c7fd7c62f124e
     name: kubernetes-opa-library-constraints
@@ -13,7 +28,7 @@ entries:
     version: 2.2.2
   - apiVersion: v2
     appVersion: 2.2.1
-    created: "2023-05-02T13:25:34.223196161+01:00"
+    created: "2024-05-23T12:51:51.959909736+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy constraints
     digest: 4c9ef5d36f83384bd751251410219ab8a258fadad089f0340d482cbf7b70acd3
     name: kubernetes-opa-library-constraints
@@ -23,7 +38,7 @@ entries:
     version: 2.2.1
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-05-02T13:25:34.221562997+01:00"
+    created: "2024-05-23T12:51:51.959372784+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy constraints
     digest: 2ba9bf99acf68bf9b8a37b84b7bdba7bf2b398177d877db75139570fb7f0ed57
     name: kubernetes-opa-library-constraints
@@ -33,7 +48,7 @@ entries:
     version: 2.2.0
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2023-05-02T13:25:34.220051819+01:00"
+    created: "2024-05-23T12:51:51.958849597+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy constraints
     digest: 2a27ca0ec46b7971b3d134cc4d5a29ba4999afc9d4656e0ec67658da6cdb75f7
     name: kubernetes-opa-library-constraints
@@ -43,7 +58,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-05-02T13:25:34.218711846+01:00"
+    created: "2024-05-23T12:51:51.958356038+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy constraints
     digest: e2240ddad63da5721c5a900114b131baaf4cf22dfcd00bcdd2779e7a69bacb47
     name: kubernetes-opa-library-constraints
@@ -53,7 +68,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-05-02T13:25:34.217504004+01:00"
+    created: "2024-05-23T12:51:51.95785952+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy constraints
     digest: 816793bad68af3e0a8793fd0fc9afccb5bb8cc447ba1ad70c84c70bcc908a463
     name: kubernetes-opa-library-constraints
@@ -64,7 +79,7 @@ entries:
   kubernetes-opa-library-templates:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2023-05-02T13:25:34.229020592+01:00"
+    created: "2024-05-23T12:51:51.962824426+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy templates
     digest: acdab956f6cd542ce7f47d2894e0d3462e2d77537bf93a97c7667c9432dfe253
     name: kubernetes-opa-library-templates
@@ -74,7 +89,7 @@ entries:
     version: 2.2.2
   - apiVersion: v2
     appVersion: 2.2.1
-    created: "2023-05-02T13:25:34.228676987+01:00"
+    created: "2024-05-23T12:51:51.962553616+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy templates
     digest: 019868e3cfd5881087239c9a36822da187483a38a99478f7d389b5161229eaff
     name: kubernetes-opa-library-templates
@@ -84,7 +99,7 @@ entries:
     version: 2.2.1
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-05-02T13:25:34.228097334+01:00"
+    created: "2024-05-23T12:51:51.962285173+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy templates
     digest: 657d5ea4b026155468da01657fa0fd4b2ec3bfdb3452c9bf396043c7685e343a
     name: kubernetes-opa-library-templates
@@ -94,7 +109,7 @@ entries:
     version: 2.2.0
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2023-05-02T13:25:34.227546898+01:00"
+    created: "2024-05-23T12:51:51.961952923+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy templates
     digest: 23c371c34d69355e34e47f1831b2a1dd2df454e6c65d09ac5796405a1900ccff
     name: kubernetes-opa-library-templates
@@ -104,7 +119,7 @@ entries:
     version: 2.1.0
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-05-02T13:25:34.225541087+01:00"
+    created: "2024-05-23T12:51:51.961688313+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy templates
     digest: 1bff0ead85b410bbc8ca2390eb27ac7d548662fa0b39a35979a71a49ad9529e4
     name: kubernetes-opa-library-templates
@@ -114,7 +129,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-05-02T13:25:34.224974059+01:00"
+    created: "2024-05-23T12:51:51.961403188+01:00"
     description: A Helm chart for Kubernetes OPA Gatekeeper policy templates
     digest: ce5434fa314630ab1c3651341cd2824699be4dbea902ec2fa89c2e9456e50ab6
     name: kubernetes-opa-library-templates
@@ -122,4 +137,4 @@ entries:
     urls:
     - kubernetes-opa-library-templates-1.0.0.tgz
     version: 1.0.0
-generated: "2023-05-02T13:25:34.216506507+01:00"
+generated: "2024-05-23T12:51:51.957125078+01:00"
